@@ -9,3 +9,5 @@ The ventricular systolic phase (further referred as "systole") is defined as a t
 The trapez area algorithm is applied to encode the t-wave end in each trial. First, the t-peak is located as a local maximum within the physiologically plausible interval after the R peak containing the t-wave.
 
 Subsequently, the algorithm computes a series of trapezes along the descending part of the t-wave signal, defining the point at which the trapeziumÂ's area gets maximal as the t-wave end.
+
+Note: To use the code, change main_path variable to the path of systole_detection folder! 
